@@ -1,3 +1,4 @@
+"""Import random."""
 import random
 
 quotes = (
@@ -8,6 +9,7 @@ quotes = (
 
 
 def random_quote():
+    """Return a random quote from quotes."""
     rand_index = random.randint(0, len(quotes) - 1)
     return quotes[rand_index]
 
